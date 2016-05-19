@@ -1,0 +1,48 @@
+body {
+  background: url("images/grass.jpg");
+  background-repeat: repeat;
+  text-align: center;
+}
+
+.racer_table {
+  border-spacing: 0px;
+}
+
+.racer_table td {
+  background-image: url("images/road.gif");
+  height: 75px;
+  width: 75px;
+}
+
+.racer_table td.diddy {
+  background: url("images/diddy.png"),
+              url("images/road.gif");
+}
+
+.racer_table td.timber {
+  background: url("images/tiger.png"),
+              url("images/road.gif");
+}
+
+#winners-circle {
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+}
+
+.racer_table td.banjo {
+  background: url("images/banjo.png"),
+              url("images/road.gif");
+}
+
+.race_winner_diddy {
+  background: url("images/diddy2.png");
+}
+
+.race_winner_banjo {
+  background: url("images/banjo2.png");
+}
+
+.race_winner_timber {
+  background: url("images/tiger2.png");
+}
