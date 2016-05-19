@@ -1,0 +1,18 @@
+#game-board {
+  height: 400px;
+  width: 400px;
+  border: 1px solid #000000;
+  margin: 65px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Raleway', sans-serif;
+    color: blue;
+    font-size: 2em;
+    text-align: center;
+}
+th, td {
+    padding: 15px;
+}
